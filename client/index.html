@@ -8,10 +8,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>Marketplace</h1>
+        <!-- <h1>Marketplace</h1> aqui puede ir el logo -->
 
         <div id="login-section">
-            <h2>Iniciar Sesión</h2>
+            <h2>Bienvenido</h2>
             <input type="text" id="username" placeholder="Usuario">
             <input type="password" id="password" placeholder="Contraseña">
             <button class="button" onclick="login()">Iniciar sesión</button>
@@ -32,7 +32,7 @@
         </div>
 
         <div id="admin-section" style="display:none;">
-            <h2>Admin - Productos Pendientes</h2>
+            <h2 id="tituloAdmin">Admin - Productos Pendientes</h2>
             <button class="button" onclick="logout()">Cerrar sesión</button>
             <div id="admin-products"></div>
         </div>
